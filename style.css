@@ -1,9 +1,9 @@
 @import url(./normalize.css);
 
 
-* {
+/* * {
     border: solid red 1px;
-}
+} */
 body {
     background-color: #ffffff;
     max-width: 1920px;
@@ -116,7 +116,7 @@ header {
     max-width: 550px;
     width: 100%;
 }
-.search__button {
+.button{
     width: 150px;
     height: 70px;
     background: #6ece0f;
@@ -135,3 +135,54 @@ header {
     border: solid #9b9a9a 2px;
 }
 /* SEARCH END */
+/* FF__APP SPART */
+.ff__app {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+.ff__text {
+    max-width: 460px;
+    width: 100%;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+.waves {
+    margin-bottom: 100px;
+    margin-left: 160px;
+}
+.ff__button {
+    margin-top: 55px;
+}
+.phone_egg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ff__phone_img {
+    width: 390px;
+    margin-right: 290px;
+}
+.ff__egg_img {
+    width: 270px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+.cucumbers {
+    width: 600px;
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+}
+.ff_bg {
+    position: absolute;
+    z-index: -1;
+    top: -200px;
+}
+
+/* FF__APP END */
