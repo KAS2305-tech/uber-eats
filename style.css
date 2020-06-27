@@ -1,0 +1,84 @@
+@import url(./normalize.css);
+
+
+* {
+    border: solid red 1px;
+}
+body {
+    background-color: #ffffff;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+header {
+    position: relative;
+}
+.header__image {
+    position: absolute;
+    right: 0;
+    max-width: 1000px;
+}
+.header_bg {
+    width: 100%;
+}
+.onion {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.header__image_onion {
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.header__image_parsley {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.footer__text {
+    max-width: 460px;
+    width: 100%;
+    position: absolute;
+    left: 100px;
+    top: 240px;
+}
+.header__button {
+    width: 220px;
+    height: 70px;
+    background: #6ece0f;
+    box-sizing: border-box;
+    color: #e2f5cf;
+    border-radius: 10px;
+}
+.section-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.section-subtitle {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 1.2em;
+}
+.title-span {
+    color: #5fb709;
+}
+.navbar {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    background: #6ece0f;
+    width: 115px;
+    height: 45px;
+    box-sizing: border-box;
+    color: #e2f5cf;
+    border-radius: 10px;
+    z-index: 2;
+}
