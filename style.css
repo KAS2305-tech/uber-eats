@@ -17,6 +17,7 @@ body {
 /* HEADER START */
 header {
     position: relative;
+    min-height: 700px;
 }
 .header__image {
     position: absolute;
@@ -105,7 +106,7 @@ header {
 }
 .search__basil {
     position: absolute;
-    top: 0;
+    top: -50px;
     right: 100px;
     filter: drop-shadow( 10px 10px 5px #878787);
 }
