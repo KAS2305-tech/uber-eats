@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Kayak; 
+    src: url(./Kayak\ Sans\ Bold.otf);
+    font-weight: 900;    
+}
+
+@font-face {
+    font-family: Kayak; 
+    src: url(./Kayak\ Sans\ Regular.otf);
+    font-weight: 700;    
+}
+
+@font-face {
+    font-family: Kayak; 
+    src: url(./Kayak\ Sans\ Light.otf);
+    font-weight: 400;    
+}
